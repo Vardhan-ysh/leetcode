@@ -10,7 +10,6 @@ class Solution {
         for(int i = 0; i < l; i++) {
             for(int j = 0; j < b; j++) {
                 if(visited[i][j] == 1 || grid[i][j] == '0') {
-                    visited[i][j] = 1;
                     continue;
                 }
 
