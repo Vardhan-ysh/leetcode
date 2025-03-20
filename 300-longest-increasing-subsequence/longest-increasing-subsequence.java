@@ -21,7 +21,7 @@ class Solution {
         int curr = nums[i];
         int max = 1;
 
-        for(int j = i; j < nums.length; j++) {
+        for(int j = i + 1; j < nums.length; j++) {
             if(nums[j] > curr) {
                 max = Math.max(max, solve(j, nums) + 1);
             }
