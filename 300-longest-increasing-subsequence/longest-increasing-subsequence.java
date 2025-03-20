@@ -14,7 +14,7 @@ class Solution {
     }
 
     private int solve(int i, int[] nums) {
-        if(i > nums.length) return 0;
+        if(i >= nums.length) return 0;
 
         if(dp[i] != -1) return dp[i];
 
