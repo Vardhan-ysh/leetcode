@@ -26,7 +26,7 @@ class Solution {
             for(int j = 1; j < n; j++) {
                 if(matrix[i][j] == 1) {
                     squares[i][j] = Math.min(Math.min(squares[i - 1][j], squares[i][j - 1]), squares[i - 1][j - 1]) + 1;
-                    ans = Math.max(ans, squares[i][j]);
+                    // ans = Math.max(ans, squares[i][j]);
                 }
             }
         }
